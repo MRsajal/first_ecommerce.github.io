@@ -1,0 +1,74 @@
+.food-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_heading h3{
+    margin-bottom: 0px;
+    color: #F48E28;
+}
+.items{
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.item-card{
+    display: flex;
+    flex-direction: column;
+}
+.item-card img{
+    width: 100%;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.item-name{
+    display: flex;
+    justify-content: space-between;
+}
+.add_to_cart{
+    background-color: #F48E28;
+    color: white;
+    font-size: 15px;
+    padding: 1px 35px;
+    border-radius: 35px;
+}
+.item_price{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+.prices{
+    font-weight: bold;
+    margin: 5px 1px;
+    font-size: 18px;
+}
+.btn{
+    background-color: #F48E28;
+    width: fit-content;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 35px;
+    color: white;
+    border: 1px solid white;
+    padding: 1px 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .items{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .add_to_cart{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,39 @@
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.testimonial_items{
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-profile{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.user_info{
+    display: flex;
+    margin-top: 5px;
+    padding: 0px 10px;
+}
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .testimonial_items{
+        flex-direction: column;
+    }
+    .user{
+        padding: 0px 80px;
+    }
+    .user_food{
+        padding: 0px 40px;
+    }
+}

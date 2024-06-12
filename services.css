@@ -1,0 +1,27 @@
+.why_us{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 60px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.service_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.whyUs_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .services{
+        flex-direction: column;
+    }
+}

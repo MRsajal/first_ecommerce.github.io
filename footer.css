@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.round{
+    background-color: #F5DDC4;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    color: #B6B6B6;
+}
+.ContactUs{
+    position: relative;
+}
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .company_logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

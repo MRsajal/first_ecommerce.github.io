@@ -1,0 +1,162 @@
+body{
+    margin: 20px 80px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Search {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    background-color: #adadad75;
+}
+
+.Search2 {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.svg_head{
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.bike-delivery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    padding: 0px 15px;
+    background-color:#F5DDC4;
+    border-radius: 32px;
+    margin: 60px 0px;
+}
+.bike-delivary-food img{
+    border-radius: 50%;
+}
+.heading h1{
+    font-size: 90px;
+}
+.order{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.order-now{
+    background-image: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    color: white;
+    border-radius: 15px;
+    padding: 0px 35px;
+}
+.order-process{
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 60px;
+}
+.header-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.header-card h3{
+    margin: 0px 0px;
+}
+.header-card p{
+    margin: 5px 0px;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    border-left: 1px solid gray;
+}
+.phone_number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    border-left: 1px solid gray;
+}
+.round2{
+    background-color: #F48E28;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    body{
+        margin: 0px 0px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .header-div{
+        gap: 40px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bike-delivery{
+        width: 80%;
+        margin: 40px 0px;
+        margin-left: 25px;
+    }
+    .heading h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .header-right{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .address{
+        flex-direction: column;
+    }
+    .phone_number{
+        border-left: none;
+        padding: 0px;
+    }
+    .location{
+        border-left: none;
+        padding: 0px;
+    }
+}
